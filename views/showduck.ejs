@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+    <meta charset="utf-8">
+    <title></title>
+</head>
+
+<body>
+    <h1>A page about <%=Duck.name%>!</h1>
+    <h1>Information about</h1>
+    <h3>Name: <%= Duck.name %></h3>
+    <h4>Email: <%= Duck.email %></h4>
+    <h4>Age: <%= Duck.age %></h4>
+    <h4>Color: <%= Duck.color %> </h4>
+    <hr>
+Edit Duck <a href="/duck/edit/<%=Duck._id%>" > click here </a>
+</body>
+
+</html>

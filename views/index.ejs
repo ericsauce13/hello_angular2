@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+    <meta charset="utf-8">
+    <title></title>
+</head>
+
+<body>
+    <h1>A page about Ducks!</h1>
+        <h1>Let's see all the ducks</h1>
+        <% for (var x in all_ducks) { %>
+        <h3>Name: <%= all_ducks[x].name %></h3>
+        <h4>Email: <%= all_ducks[x].email %></h4>
+        <h4>Age: <%= all_ducks[x].age %></h4>
+        <h4>Color: <%= all_ducks[x].color %> </h4>
+        <hr>
+        <% } %>
+
+</body>
+
+</html>
